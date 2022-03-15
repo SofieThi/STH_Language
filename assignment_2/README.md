@@ -16,4 +16,4 @@ Save a CSV which shows the text ID, the sentiment scores, and column showing all
 
 Find the 20 most common geopolitical entities mentioned across each dataset - plot the results as a bar charts
 
-The code is both in a python and html file and a cvs for the last question (the csv is in a zip file as it is too big to upload)
+The code is both in a python and html file and a cvs for the second to last question (the csv is in a zip file as it is too big to upload)
