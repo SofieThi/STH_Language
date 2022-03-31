@@ -23,8 +23,11 @@ Save a separate visualisation and CSV for each file
 This repository has the following directory structure:
 
 data:	a folder to be used for inputting the data you wish to run
+
 notebooks: Jupyter notebooks in both .ipynb and .html format
+
 src: the .py script version of the assignment
+
 output: the results of inputting the network_data datasets
 
 Be sure to include file extension (eg. '.csv') and no quotes or space when asked the name of the file to perform network analysis on
