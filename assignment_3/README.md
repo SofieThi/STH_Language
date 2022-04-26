@@ -19,15 +19,20 @@ Do all of the above steps for every edgelist in the directory
 
 Save a separate visualisation and CSV for each file
 
-### Structure
+
+
+## Structure
+
 This repository has the following directory structure:
 
-data:	a folder to be used for inputting the data you wish to run
+| Column | Description|
+|--------|:-----------|
+```data```| a folder to be used for inputting the data you wish to run
+```notebooks``` | Jupyter notebooks in both .ipynb and .html format
+```src``` | the .py script version of the assignment
+```output``` | the results of inputting the network_data datasets
 
-notebooks: Jupyter notebooks in both .ipynb and .html format
+## Important
 
-src: the .py script version of the assignment
+Be sure to include file extension (eg. '.csv'), no quotes or space when asked the name of the file to perform network analysis on
 
-output: the results of inputting the network_data datasets
-
-Be sure to include file extension (eg. '.csv') and no quotes or space when asked the name of the file to perform network analysis on
