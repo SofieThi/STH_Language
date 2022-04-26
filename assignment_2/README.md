@@ -1,4 +1,4 @@
-This folder contains the answers to assignment 2: Assignment 2 - Sentiment and NER in the course: Cultural data science 
+## Assignment 2 - Sentiment and NER in the course: Cultural data science 
 
 The following tasks are answered:
 
@@ -16,4 +16,14 @@ Save a CSV which shows the text ID, the sentiment scores, and column showing all
 
 Find the 20 most common geopolitical entities mentioned across each dataset - plot the results as a bar charts
 
-The code is both in a python and html file and a cvs for the second to last question (the csv is in a zip file as it is too big to upload)
+
+## Structure
+
+This repository has the following directory structure:
+
+| Column | Description|
+|--------|:-----------|
+```data```| a folder to be used for inputting the data you wish to run
+```notebooks``` | Jupyter notebooks in both .ipynb and .html format
+```src``` | the .py script version of the assignment
+```output``` | the results of inputting the fake/real news dataset. The csv's results are uploaded in a zip file as it is too big to upload
