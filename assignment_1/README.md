@@ -1,10 +1,4 @@
-This folder contains the answers to assignment 1:
-
-Assignment 1 - Collocation tool in the course: Cultural data science
-
-The following tasks are answered:
-
-Tasks:
+## Assignment 1 - Collocation tool in the course: Cultural data science
 
 -Take a user-defined search term and a user-defined window size.
 
@@ -16,4 +10,14 @@ Tasks:
 
 -Save the results as a CSV file with (at least) the following columns: the collocate term; how often it appears as a collocate; how often it appears in the text; the mutual information score
 
-The code is both in a python and html file and a csv containing the answer for the last question
+
+## Structure
+
+This repository has the following directory structure:
+
+| Column | Description|
+|--------|:-----------|
+```data```| a folder to be used for inputting the data you wish to run
+```notebooks``` | Jupyter notebooks in both .ipynb and .html format
+```src``` | the .py script version of the assignment
+```output``` | the results of inputting the dataset
