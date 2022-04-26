@@ -1,4 +1,4 @@
-### Assignment 3 - Network analysis
+## Assignment 3 - Network analysis
 
 The script does the following:
 
