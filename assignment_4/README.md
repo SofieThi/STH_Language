@@ -22,5 +22,5 @@ This repository has the following directory structure:
 |--------|:-----------|
 ```data```| a folder to be used for inputting the data you wish to run
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
-```src``` | the .py script version of the assignment
-```output``` | the results of inputting the toxic dataset
+```src``` | the .py script version of the assignments. The first script is assign_4.1, the second script is assign_4.py
+```output``` | the results of inputting the toxic dataset. The first script's output is benchmark_assign_4.txt, the second script is deep_learning_assign_4.txt
