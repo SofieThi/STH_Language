@@ -43,6 +43,6 @@ To replicate the results chose the dataset in the folder toxic: VideoCommentsThr
 
 ## Discussion of results
 
-Results: The first script: assign_4.1
+Results: The first script with the LogisticRegression classifier (assign_4.1) had an accuracy of 72% 
 
-The second script: assign_4
+The second script with the classification using deep learning methods (assign_4) had an accuracy score of 97% 
