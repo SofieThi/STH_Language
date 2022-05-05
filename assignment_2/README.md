@@ -46,4 +46,4 @@ To replicate the results chose the dataset fake_or_real_news.csv
 
 ## Discussion of results
 
-Results: getting a .csv file with the text ID, the sentiment scores, and column showing all GPEs in that text. Furthermore, two bar charts showing the 20 most frequently mentioned GPE split in real and fake news
+Results: getting a .csv file with the text ID, the sentiment scores, and column showing all GPEs in that text. Furthermore, two bar charts showing the 20 most frequently mentioned GPE split in real and fake news. Unfortunately, names like Obama has been counted as a GPE.
