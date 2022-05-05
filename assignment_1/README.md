@@ -50,7 +50,7 @@ We get the 'words', 'B', 'AB', 'MI' into a dataframe and make it into a .csv
 
 ## Usage (reproducing results)
 
-To run this code manually select any text by changing the filepath and input your own search term when asked "what is your search term?"
+To run this code input your own search term when asked "what is your search term?". You can change the window size and text manually select by changing the filepath and changing the range
 
 To replicate the results chose the text Bennet_Helen_1910.txt and set the search_term to park and the window size to ± 5
 
