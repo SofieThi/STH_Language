@@ -41,11 +41,11 @@ Sofie Thinggaard au613703
 
 ## Methods
 
-This problem relates to performing network analysis using networkx. The network consists of nodes (the objects we are studying, here characters in books) and edges (the relationship between the characters in the books). In order to address this problem, we start by finding all the .csv files in the folder and defining the place we want our networks to be saved (outpath). From the command line, chose either "a single file AND its extension" or we select "all". 
+This problem relates to performing network analysis using networkx. The network consists of nodes (the objects we are studying, here characters in books) and edges (the relationship between the characters in the books). In order to address this problem, we start by finding all the .csv files in the folder and defining the place we want our networks to be saved (outpath). From the command line, chose either "a single file AND its extension" or we select "All". 
 
 If a specific csv file from the folder is selected the following should occur: it prints the name of the file to the terminal, makes network from the read dataframe, saves file as a .png in outpath, resets graph so it doesn't write on top of each other, print to terminal: "A graph of the calculated network has been saved as a png in the output folder". Furthermore, we generate a .csv with eigenvector centrality measures, betweenness centrality measures, degree centrality and rename the column names to match (we have to join the dataframes in stages). This is saved with the outpath with name of the csv based on the data file's original name. 
 
-If "all", on the other hand, is selected the same should occur but for ALL the .csv files in the folder.
+If All, on the other hand, is selected the same should occur but for ALL the .csv files in the folder.
 
 -If the inout is correct the following will show: "A csv file containing calculated betweenness centrality, eigenvector centrality and degree centrality has been saved in the Output folder"
 
