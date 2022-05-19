@@ -40,10 +40,14 @@ This problem relates to finding sentiment score and mentions of geopolitical ent
 
 ## Usage (reproducing results)
 
-You can manually change the dataset by changing the filepath
+In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
 
 To replicate the results chose the dataset fake_or_real_news.csv
 
 ## Discussion of results
 
-Results: getting a .csv file with the text ID, the sentiment scores, and column showing all GPEs in that text. Furthermore, two bar charts showing the 20 most frequently mentioned GPE split in real and fake news. Unfortunately, names like Obama has been counted as a GPE.
+Results: getting a .csv file with the text ID, the sentiment scores, and column showing all GPEs in that text. Furthermore, two bar charts showing the 20 most frequently mentioned GPE split in real and fake news. Unfortunately, names like Obama will be counted as a GPE.
+
+The most frequent GPEs in the fake news subset are US, Russia, Syria
+
+The most frequent GPEs in the real news subset are Obama, Iran, US
