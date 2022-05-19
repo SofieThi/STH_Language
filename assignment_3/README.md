@@ -41,7 +41,7 @@ Sofie Thinggaard au613703
 
 ## Methods
 
-This problem relates to performing network analysis using networkx. In order to address this problem, we start by finding all the .csv files in the folder and defining the place we want our networks to be saved (outpath). From the command line, chose either "a single file AND its extension" or we select "all". 
+This problem relates to performing network analysis using networkx. The network consists of nodes (the objects we are studying, here characters in books) and edges (the relationship between the characters in the books). In order to address this problem, we start by finding all the .csv files in the folder and defining the place we want our networks to be saved (outpath). From the command line, chose either "a single file AND its extension" or we select "all". 
 
 If a specific csv file from the folder is selected the following should occur: it prints the name of the file to the terminal, makes network from the read dataframe, saves file as a .png in outpath, resets graph so it doesn't write on top of each other, print to terminal: "A graph of the calculated network has been saved as a png in the output folder". Furthermore, we generate a .csv with eigenvector centrality measures, betweenness centrality measures, degree centrality and rename the column names to match (we have to join the dataframes in stages). This is saved with the outpath with name of the csv based on the data file's original name. 
 
@@ -54,7 +54,7 @@ If "all", on the other hand, is selected the same should occur but for ALL the .
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
+In order to run this code, clone the repository and store the data in the data folder. The data is from the 100_english_novels folder. You will need the packages in the requirements.txt document.
 
 When asked the name of the file to perform network analysis on, input either a single file's name + file extension (eg. '.csv') or input "all" to do network analysis on all the files. 
 
@@ -65,4 +65,4 @@ No quotatition marks or space when asked the name of the file to perform network
 
 ## Discussion of results
 
-Results: getting a .csv file that shows name; degree centrality; betweenness centrality; eigenvector centrality of either a single file or of all the csvs in the folder. Furthermore, a visualization of the network, also for a single file or all in the folder is generated.
+Results: getting a .csv file that shows name; degree centrality; betweenness centrality; eigenvector centrality of either a single file or of all the csvs in the folder. Node centrality metrics include degree (the number of edges connected to a node), eigenvector (how well-connected a node is to other well connected nodes) and betweeness centrality (nodes located on the communication path to important nodes - connects other nodes) Furthermore, a visualization of the network, also for a single file or all in the folder is generated.
