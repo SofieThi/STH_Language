@@ -1,5 +1,9 @@
 ## self-assigned project: Testing the sentiment-roberta-large-english model on IMDB movie reviews
 
+-use the sentiment-roberta-large-english model on the IMDB movie reviews dataset
+
+-exclude reviews that are too long for the model to do sentiment analysis on
+
 -how well the model is performing? Make a classification report and save it to the output folder
 
 -Is the model better at predicting negative or positive sentiments? Make a confusion_matrix and save it to the output folder
