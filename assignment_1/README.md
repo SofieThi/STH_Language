@@ -40,7 +40,7 @@ Second, we need to find B: the frequency of collocate
 
 Third, we need to find AB: the frequency of collocate near the node word
 
-Fouth, we need to find size of the corpus (text)
+Fouth, we need to find size of the corpus (the text)
 
 Fifth, we need to find the span of words
 
@@ -50,10 +50,12 @@ We get the 'words', 'B', 'AB', 'MI' into a dataframe and make it into a .csv
 
 ## Usage (reproducing results)
 
-To run this code input your own search term when asked "what is your search term?". You can change the window size and text manually, by changing the filepath and changing the range
+In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document. 
+
+Input the desired search term when asked "what is your search term?" in the terminal. You can also change the window size and text manually, by changing the filepath and the range.
 
 To replicate the results chose the text Bennet_Helen_1910.txt and set the search_term to "park" and the window size to ± 5 (default in this code)
 
 ## Discussion of results
 
-Results: getting a .csv file with all the words within a specific window size to a search term ordered into the columns: the collocate term; how often it appears as a collocate; how often it appears in the text; the mutual information score
+Results: getting a .csv file with all the words within a specific window size to a search term ordered into the columns: the collocate term; how often it appears as a collocate; how often it appears in the text; the mutual information score. The word "park" is strongly associated with words like "splendours", "mentions", "vaunted", and "benches".
