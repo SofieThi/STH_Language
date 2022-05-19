@@ -1,1 +1,10 @@
-
+os
+pandas
+Counter
+combinations 
+tqdm
+spacy
+nlp = spacy.load("en_core_web_sm")
+networkx
+matplotlib.pyplot
+plt.rcParams["figure.figsize"] = (20,20)
