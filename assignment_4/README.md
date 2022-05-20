@@ -4,7 +4,7 @@ The two scripts do the following:
 
 -->The first script should perform benchmark classification using standard machine learning approaches
 
-This means CountVectorizer() or TfidfVectorizer(), LogisticRegression classifier
+This means TfidfVectorizer(), LogisticRegression classifier
 
 Save the results from the classification report to a text file
 
