@@ -1,1 +1,39 @@
-
+os
+re
+tqdm
+unicodedata
+contractions
+BeautifulSoup
+nltk
+nltk.download('punkt')
+pandas
+numpy
+Sequential
+Dense
+Flatten
+Conv1D, 
+MaxPooling1D
+Embedding
+Tokenizer
+sequence
+confusion_matrix
+classification_report
+LabelBinarizer
+LabelEncoder
+train_test_split
+CountVectorizer
+TfidfVectorizer
+LogisticRegression
+MLPClassifier 
+ShuffleSplit
+metrics
+matplotlib.pyplot
+sys
+utils.classifier_utils
+MLPClassifier 
+LogisticRegression
+seaborn
+warnings
+if not sys.warnoptions:
+    warnings.simplefilter("ignore")
+    os.environ["PYTHONWARNINGS"] = "ignore"
