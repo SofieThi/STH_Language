@@ -38,6 +38,6 @@ To replicate the results chose the first 500 reviews in the IMDB dataset from ka
 
 ## Discussion of results
 
-Results: getting a classification report and a confusion matrix to see how well the model is performing. The pretrained model is performing very well, getting an accuracy of 97% The Siebert model has been fine-tuned and evaluated on datasets from different types of texts in order to increase its ability to generalize, and it seemingly does its job well: to predict either positive or negative sentiment. 
+Results: getting a classification report and a confusion matrix to see how well the model is performing. The pretrained model is performing very well, getting an accuracy of 97% The Siebert model has been fine-tuned and evaluated on datasets from different types of texts in order to increase its ability to generalize, and it seemingly does its job well: to predict either positive/1 or negative/0 sentiment. 
 
-The confusion matrix would yield clearer results had the movie reviews sentiment's been equally divided between positive and negative. They are not however, with more negative reviews than positive.
+The confusion matrix would yield clearer results had the movie reviews sentiment's been equally divided between positive and negative. They are not however, with more negative reviews than positive. However, the confusion matrix reveals that the model predicts very few wrong in both sentiment cases (it does not overly predict wrong in one case or the other).
