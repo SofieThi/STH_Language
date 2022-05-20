@@ -46,6 +46,10 @@ To replicate the results chose the dataset VideoCommentsThreatCorpus.csv
 
 ## Discussion of results
 
-Results: The first script with the LogisticRegression classifier (assign_lr.py) had an accuracy of 72% 
+Results: Getting two text documents with two classification reports showing how good each model is at prediction whether a comment is toxic/1 or non toxic/0
 
-The second script with the classification using deep learning methods (assign_dl.py) had an accuracy score of 97% 
+The first script with the LogisticRegression classifier (assign_lr.py) had an accuracy of 72% 
+
+The second script with the classification using deep learning methods (assign_dl.py) had a much higher accuracy score of 97% 
+
+The reason for the higher accuracy ...
