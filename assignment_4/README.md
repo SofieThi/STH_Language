@@ -36,7 +36,7 @@ Sofie Thinggaard au613703
 
 This problem relates to text classification. We are going to train a model to predict whether or not a comment is toxic or non-toxic. The first script: assign_lr.py performs benchmark classification using standard machine learning approaches (TfidfVectorizer(), LogisticRegression classifier). Firstly, we create more balanced dataset by getting a random sample of the dataset (1000 datapoints), then we create new variables called text and label, then we do a train-test split, create vectorizer object using TfidfVectorizer, this vectorizer is then used to turn all of our documents into a vector of numbers, instead of text, then we classify and predict with LogisticRegression. We make a classification report and save it to an output folder. 
 
-The second script: assign.dl.py performs classification using deep learning methods with Keras Embedding layer, Convolutional Neural Network. Firstly, we create new variables called text and label, do a train-test split, clean and normalize data (lots of noise like html tags), then we define what to do if model encounter unknown words it has not seen during training= UNK, we fit tokenizer on the documents, we set a padding value (because we have different lengths of documents, so need a max doument length. If shorter= padding of zeros), we then tokenize all documents using this fit tokenizer, we do a sequence normalization (sequence= anything that can be iterated over), we add padding to sequences, we encode labels, we define parameters for the model and create it and train it. Finally, we can evaluate and make a classification report and save to an output folder.
+The second script: assign.dl.py performs classification using deep learning methods with Keras Embedding layer, Convolutional Neural Network. Firstly, we create new variables called text and label, do a train-test split, clean and normalize data (lots of noise like html tags), then we define what to do if model encounter unknown words it has not seen during training= UNK, we fit tokenizer on the documents, we set a padding value (because we have different lengths of documents, so need a max doument length. If shorter we pad with zeros), we then tokenize all documents using this fit tokenizer, we do a sequence normalization (sequence= anything that can be iterated over), we add padding to sequences, we encode labels, we define parameters for the model and create it and train it. Finally, we can evaluate and make a classification report and save to an output folder.
 
 ## Usage (reproducing results)
 
@@ -48,8 +48,4 @@ To replicate the results chose the dataset VideoCommentsThreatCorpus.csv
 
 Results: Getting two text documents with two classification reports showing how good each model is at prediction whether a comment is toxic/1 or non toxic/0
 
-The first script with the LogisticRegression classifier (assign_lr.py) had an accuracy of 72% 
-
-The second script with the classification using deep learning methods (assign_dl.py) had a much higher accuracy score of 97% 
-
-The reason for the higher accuracy ...
+The first script with the LogisticRegression classifier (assign_lr.py) had an accuracy of 72%. Unsurprisingly, this simpler model's accuracy is beaten by the deep learning model. The second script with the classification using deep learning methods (assign_dl.py), thus, had a much higher accuracy score of 97%. This is because, with deep learning methods, you need to convert the next to numbers. The most efficient way is with word embeddings, since it gives valuable linguistic information (semantic, grammatical) about the word and it's relationship to other words. This is fed into the classifier and improves the classifier model and its ability to generalize. 
