@@ -54,14 +54,14 @@ If All, on the other hand, is selected the same should occur but for ALL the .cs
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. The data is from the 100_english_novels folder. You will need the packages in the requirements.txt document.
+In order to run this code, clone the repository and store the data in the data folder. The data is from the 100_english_novels folder from https://github.com/computationalstylistics/100_english_novels You will need the packages in the requirements.txt document.
 
 When asked the name of the file to perform network analysis on, input either a single file's name + file extension (eg. '.csv') or input "all" to do network analysis on all the files. 
 
 To replicate the results chose the files in the folder called network_data
 
 #### Important
-No quotatition marks or space when asked the name of the file to perform network analysis on
+No quotatition marks or space when asked the name of the file to perform network analysis on. Capitalization also matters!
 
 ## Discussion of results
 
