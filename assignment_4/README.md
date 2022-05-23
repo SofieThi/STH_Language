@@ -42,7 +42,7 @@ The second script: assign.dl.py performs classification using deep learning meth
 
 In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
 
-To replicate the results chose the dataset VideoCommentsThreatCorpus.csv
+To replicate the results chose the dataset VideoCommentsThreatCorpus.csv from https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf 
 
 ## Discussion of results
 
