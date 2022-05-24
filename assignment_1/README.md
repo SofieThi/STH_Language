@@ -20,7 +20,7 @@ This repository has the following directory structure:
 ```data```| a folder to be used for inputting the data you wish to run
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
-```output``` | the results of inputting the dataset
+```output``` | the results of inputting the text: Bennet_Helen_1910.txt and search_term "park"
 
 ## Contribution
 
