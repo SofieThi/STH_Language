@@ -61,3 +61,7 @@ To replicate the results chose the text Bennet_Helen_1910.txt and set the search
 Results: getting a .csv file with all the words within a specific window size to a search term ordered into the columns: the collocate term (words), how often it appears in the text (B), how often it appears as a collocate (AB) and the mutual information score (MI). The word "park" is strongly associated with words like "equals", "splendours", "mentions", "vaunted", and "benches".
 
 One problem with this method is that it also counts stop words like the and a and punctuation, and they are prominent in the output data. These are rarely relevant for analysis and could be removed.
+
+## Link to assignment 1 on Github
+
+
