@@ -64,4 +64,4 @@ One problem with this method is that it also counts stop words like the and a an
 
 ## Link to assignment 1 on Github
 
-
+https://github.com/SofieThi/STH_Language/tree/main/assignment_1
