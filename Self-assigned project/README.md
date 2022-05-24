@@ -18,7 +18,7 @@ This repository has the following directory structure:
 ```data```| a folder to be used for inputting the data you wish to run
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
-```output``` | the results of inputting the dataset. The lassification report is called ... and the confusion matrix ...
+```output``` | the results of inputting the dataset. The classification report is called project_classification.txt and the confusion matrix is confusion_matrix.csv
 
 ## Contribution
 
