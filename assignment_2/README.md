@@ -55,3 +55,4 @@ The most frequent GPEs in the real news subset are Iran, US, America
 
 ## Link to assignment 2 on GitHub
 
+https://github.com/SofieThi/STH_Language/tree/main/assignment_2
