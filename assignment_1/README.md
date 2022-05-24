@@ -50,11 +50,11 @@ We get the 'words', 'B', 'AB', 'MI' into a dataframe and make it into a .csv
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document. 
+In order to run this code, clone the repository and store the data in the data folder. The data is from Github: https://github.com/computationalstylistics/100_english_novels. You will need the packages in the requirements.txt document. 
 
-Input the desired search term when asked "what is your search term?" in the terminal. You can also change the window size and text manually, by changing the filepath and the range.
+Input the desired search term when asked "what is your search term?" in the terminal. You can also change the window size (± 5 in this code) and the text manually, by changing the range and the filepath.
 
-To replicate the results chose the text Bennet_Helen_1910.txt and set the search_term to "park" and the window size to ± 5 (default in this code)
+To replicate the results chose the text Bennet_Helen_1910.txt and set the search_term to "park" (no quotation marks or uppercase when chosing search word).
 
 ## Discussion of results
 
