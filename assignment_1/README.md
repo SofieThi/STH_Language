@@ -1,4 +1,4 @@
-## Assignment 1 - Collocation tool in the course: Cultural data science
+## Assignment 1 - Collocation tool
 
 -Take a user-defined search term and a user-defined window size.
 
