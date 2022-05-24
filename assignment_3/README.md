@@ -30,7 +30,7 @@ This repository has the following directory structure:
 ```data```| a folder to be used for inputting the data you wish to run
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
-```output``` | the results of inputting the network_data's cvs files
+```output``` | the results of inputting the network_data's cvs files: the .png files are the visualizations of the network and the .csv files show the node centrality metrics
 
 
 ## Contribution
