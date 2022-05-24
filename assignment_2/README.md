@@ -52,3 +52,6 @@ Results: getting a .csv file with the text ID, the sentiment scores, and column 
 The most frequent GPEs in the fake news subset are US, Russia, America 
 
 The most frequent GPEs in the real news subset are Iran, US, America
+
+## Link to assignment 2 on GitHub
+
