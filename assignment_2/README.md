@@ -1,6 +1,6 @@
 ## Assignment 2 - Sentiment and NER
 
-The following tasks are answered:
+The script does the following:
 
 Using the corpus of Fake vs Real news, write some code which does the following
 
