@@ -1,5 +1,7 @@
 ## Assignment 1 - Collocation tool
 
+The script does the following:
+
 -Take a user-defined search term and a user-defined window size.
 
 -Take one specific text which the user can define.
