@@ -26,7 +26,7 @@ This repository has the following directory structure:
 ```data```| a folder to be used for inputting the data you wish to run
 ```notebooks``` | Jupyter notebooks in both .ipynb and .html format
 ```src``` | the .py script version of the assignment
-```output``` | the results of inputting the fake or real news dataset. The csv's results are uploaded in a zip file as it is too big to upload
+```output``` | the results of inputting the fake or real news dataset. The two bar charts are called real_bar_chart.png and fake_bar_chart.png. The csv's results are uploaded in a zip file as it is too big to upload
 
 ## Contribution
 
