@@ -32,7 +32,7 @@ Sofie Thinggaard au613703
 
 ## Methods
 
-This problem relates to finding how often words appear together in a given window size (collocation). In order to address this problem, we first chose a text (the default: Bennet_Helen_1910.txt) and make it all lower case and tokenize the text. Then we define a search term (can chose from the terminal) and a window size (default: ± 5). 
+This problem relates to finding how often words appear together in a given window size (collocation). In order to address this problem, we first chose a text (the default: Bennet_Helen_1910.txt) and make it all lower case and tokenize the text. Then we define a search term (can choose from the terminal) and a window size (default: ± 5). 
 First, we count how many instances of the search_term (I chose "park") occur in the chosen text. Next, we get the index of context words in the window (without counting the search term) and then get the words themselves that match the index. 
 We then get the mutual information (MI) score by using this formula: MI = log ( (AB * sizeCorpus) / (A * B * span) ) / log (2) from https://www.english-corpora.org/mutualInformation.asp We now need to find all the variables:
 
