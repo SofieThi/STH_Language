@@ -40,7 +40,7 @@ The second script: assign_dl.py performs classification using deep learning meth
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document.
+In order to run this code, clone the repository and store the data in the data folder. You will need the packages in the requirements.txt document and the premade functions in the utils folder.
 
 To replicate the results chose the dataset VideoCommentsThreatCorpus.csv from https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf 
 
