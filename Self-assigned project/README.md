@@ -2,7 +2,7 @@
 
 -use the sentiment-roberta-large-english model on the IMDB movie reviews dataset
 
--data proprocessing: convert the labels into ones and zeros, exclude reviews that are too long for the model to do sentiment analysis on
+-data preprocessing: convert the labels into ones and zeros, exclude reviews that are too long for the model to do sentiment analysis on
 
 -how well the model is performing? Make a classification report and save it to the output folder
 
