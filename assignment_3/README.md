@@ -55,7 +55,7 @@ If All, on the other hand, is selected, the same should occur but for ALL the de
 
 In order to run this code, clone the repository and store the data in the data folder. The data is from the network_data folder. You will need the packages in the requirements.txt document.
 
-When asked the name of the file to perform network analysis on, input either a single file's name + file extension (eg. '.csv') or input "All" to do network analysis on all the files. 
+When asked the name of the file to perform network analysis on, input either a single file's name + file extension (eg. '.csv') or input All to do network analysis on all the files. 
 
 To replicate the results, choose the files in the folder called network_data.
 
